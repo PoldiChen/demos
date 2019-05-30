@@ -3,7 +3,7 @@
 
 <configuration>
 
-    <properties resource="com/poldichen/resource/jdbc.properties">
+    <properties resource="./jdbc.properties">
     </properties>
 
     <environments default="dev">
@@ -19,7 +19,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/poldichen/resource/user-config.xml" />
+        <mapper resource="student.xml" />
     </mappers>
 
 </configuration>

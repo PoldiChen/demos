@@ -2,7 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="mybatisEntity">
-    <select id="listUserInfo" resultType="com.poldichen.entity.User">
-        select id, name from user;
+    <select id="listStudent" resultType="com.poldichen.entity.Student">
+        select id, name from student;
     </select>
+
 </mapper>
